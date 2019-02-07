@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 #include <fstream>
 #include <streambuf>
@@ -11,11 +11,11 @@ class FIle
 {
 public:
 	/*
-		Получает строку из текстового файла
+		РџРѕР»СѓС‡Р°РµС‚ СЃС‚СЂРѕРєСѓ РёР· С‚РµРєСЃС‚РѕРІРѕРіРѕ С„Р°Р№Р»Р°
 	*/
 	static std::string getFileData(std::string path);
 	/*
-		Создает файл и записывает в него строку
+		РЎРѕР·РґР°РµС‚ С„Р°Р№Р» Рё Р·Р°РїРёСЃС‹РІР°РµС‚ РІ РЅРµРіРѕ СЃС‚СЂРѕРєСѓ
 	*/
 	static bool CreateFile(std::string path, std::string data);
 };

@@ -1,16 +1,16 @@
-#pragma once
+п»ї#pragma once
 #include "Model.h"
 class Counter: public Model
 {
 public:
 	Counter(std::string path) : Model(path) {};
 	/*
-		Получить сумму всех элементов вектора
+		РџРѕР»СѓС‡РёС‚СЊ СЃСѓРјРјСѓ РІСЃРµС… СЌР»РµРјРµРЅС‚РѕРІ РІРµРєС‚РѕСЂР°
 	*/
 	int getAnswer();
 private:
-	static  const int CORTEGE_LENGTH = 5, // Длина кортежа
-		ARRAY_DIMENSION = 2, //Количество картежей для одного элемена
-		ARRAY_SIZE = 20; //Размер элементов массива
+	static  const int CORTEGE_LENGTH = 5, // Р”Р»РёРЅР° РєРѕСЂС‚РµР¶Р°
+		ARRAY_DIMENSION = 2, //РљРѕР»РёС‡РµСЃС‚РІРѕ РєР°СЂС‚РµР¶РµР№ РґР»СЏ РѕРґРЅРѕРіРѕ СЌР»РµРјРµРЅР°
+		ARRAY_SIZE = 20; //Р Р°Р·РјРµСЂ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°
 };
 
