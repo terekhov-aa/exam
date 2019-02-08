@@ -30,14 +30,14 @@ int Counter::getAnswer()
 					int y = j;
 					if (q == 0)
 					{
-						int y = Counter::ARRAY_SIZE < (j + z) ? Counter::ARRAY_SIZE - Counter::CORTEGE_LENGTH : (j + z);
+						int y = (j + z);//Counter::ARRAY_SIZE < (j + z) ? Counter::ARRAY_SIZE - Counter::CORTEGE_LENGTH : (j + z);
 					}
 					else
 					{
-						int x = Counter::ARRAY_SIZE < (i + z) ? Counter::ARRAY_SIZE - Counter::CORTEGE_LENGTH : (i + z);
+						int x = (i + z)//Counter::ARRAY_SIZE < (i + z) ? Counter::ARRAY_SIZE - Counter::CORTEGE_LENGTH : (i + z);
 					}
 
-					//if (x < 20 && y < 20)
+					if (x < 20 && y < 20)
 					{
 						int maxIntNumber = CORTEGE_LENGTH / 2,
 							currentMaxIntNumber = 0,
